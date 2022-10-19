@@ -30,8 +30,11 @@ h3 {
 
 .card {
     color: #092C11;
-    background-color: rgba(143,188,143,0.5);
-    border-radius: 15px;   
+    /* background-color: rgba(143,188,143,0.5); */
+    background-color: rgb(192,212,148);
+    border-radius: 15px;  
+    border: 0px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); 
 }
 .btn {
 
@@ -39,8 +42,57 @@ h3 {
     color: #FFFFFF;
 
   
-    background-color: #8FBC8F
-  
+    background-color: #092C11
+    /* background-color: rgb(192,212,148); */
   
     }
+.checked {
+    color: gray;
+  }
 
+#activityheader {display:flex; flex-flow:row wrap;}
+
+.pfp {
+    margin: 1rem;
+}
+
+.activitycard{
+    background-color: #c0d494;
+}
+.friendstext {
+    margin: 1 rem;
+    line-height: 25%;
+}
+
+.alignleft {
+width:77%;
+text-align:left;
+}
+
+.alignright {
+width:20%;
+text-align:right;
+}
+
+.leftAlignedImage {
+    float: left;
+    margin-right: 10px;
+}
+
+.scroll {
+    max-height: 600px;
+    overflow-y: auto;
+}
+
+/* If the screen size is 1200px wide or more, set the font-size to 80px */
+@media (min-width: 1200px) {
+    .responsive-font {
+      font-size: calc(0.5em + 1vmin);
+    }
+  }
+  /* If the screen size is smaller than 1200px, set the font-size to 80px */
+  @media (max-width: 1199.98px) {
+    .responsive-font {
+      font-size: calc(0.5em + 1vmin);
+    }
+  }
