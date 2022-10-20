@@ -35,6 +35,7 @@ h3 {
     border-radius: 15px;  
     border: 0px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); 
+    margin-bottom: 2rem;
 }
 .btn {
 
@@ -96,3 +97,29 @@ text-align:right;
       font-size: calc(0.5em + 1vmin);
     }
   }
+
+
+
+  /* /* Responsive columns - one column layout (vertical) on small screens 
+  from https://www.w3schools.com/howto/howto_css_column_cards.asp */
+/* @media screen and (max-width: 600px) {
+    .col {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+} */ 
+@media screen and (max-width:120px) {
+    img {
+        width:100%;
+    }
+    .container {
+        max-width:100%;
+        width: 100%;
+    }
+    .col-sm-2{
+        width:100%;
+        float:left;
+        margin:0;
+    }
+    }
