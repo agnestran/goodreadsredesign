@@ -30,13 +30,13 @@ h3 {
 
 .card {
     color: #092C11;
-    /* background-color: rgba(143,188,143,0.5); */
+    background-color: rgba(143,188,143,0.5);
     background-color: rgb(192,212,148);
     border-radius: 15px;  
     border: 0px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); 
     margin-bottom: 2rem;
-}
+} 
 .btn {
 
 
@@ -122,4 +122,68 @@ text-align:right;
         float:left;
         margin:0;
     }
+    }
+
+
+
+
+
+
+@media (min-width:1200px) {
+    :root {
+        --cardWidth: 22%;
+        --cardHeight: 60%;
+        --cardMargin: 1.5%;
+      }
+}
+
+@media (max-width:1199.98px) {
+        :root {
+        --cardWidth: 45%;
+        --cardHeight: 60%;
+        --cardMargin: 2%;
+      } 
+}
+  
+
+
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+      }
+      h1 {
+        color: #092C11;
+
+      }
+      .main-section {
+        display: flex;
+        justify-content: flex-center;
+        flex-wrap: wrap;
+      }
+      .shelfcard {
+        width: var(--cardWidth);
+        height: var(--cardHeight);
+        margin: var(--cardMargin);
+        border: 0px;
+        border-radius: 15px;  
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); 
+
+        background: rgb(192,212,148);
+        /* box-sizing: border-box; */
+        color: #092C11;
+      /* margin-bottom: 2rem; */
+
+      }
+      .img-box {
+        display: flex;
+        cursor: default;
+        position: relative;
+        height: 100%;
+        margin-bottom: 3px;
+    }
+
+    .responsive-but {
+        font-size: 100%;
     }
