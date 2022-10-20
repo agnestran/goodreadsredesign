@@ -47,6 +47,17 @@ h3 {
     /* background-color: rgb(192,212,148); */
   
     }
+    .linkbtn:hover {
+        background-color: rgba(143,188,143,0.5);
+        /* background-color:rgba(143,188,143,0.5); */
+        transition: 0.7s;
+        /* margin: 50%; */
+    }    
+.linkbtn {
+    background-color: #FFFFFF;
+    color: #092C11;
+}
+
 .checked {
     color: gray;
   }
